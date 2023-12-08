@@ -1,2 +1,32 @@
-# monkeytype-cli
-unofficial MonkeyType command line program (OFFLINE!)
+# MonkeyType CLI Program
+
+MonkeyType CLI is a minimalistic typing test designed specifically for the command-line interface. It offers an immersive and interactive way to improve your typing speed and accuracy right from your terminal 4.
+## Features
+
+    Offline: MonkeyType CLI is used offline, which means you dont need an internet connection at all!. This is especially useful if you're in an environment with limited or no internet access .
+
+    Test Modes: MonkeyType CLI offers a couple of test modes to challenge your typing skills. You can choose from different test durations and word amounts.
+
+    Stats: After completing a test, you can see your words per minute (WPM), raw WPM, accuracy, character stats, test length, and leaderboards info. You can also see a graph of your WPM and raw over the duration of the test.
+
+## Installation
+
+### To install MonkeyType CLI, you need Python 3.7+ (only tested on 3.11 so please use that) and the blessed library. You can build MonkeyType CLI into an executable. If you want to do so please install PyInstaller or other python packager.
+
+## Usage
+
+To use MonkeyType CLI, you can simply run the monkeytype-cli command in your terminal. This will start a new typing test.
+
+monkeytype-cli
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+## License
+
+MonkeyType CLI is open-source software but missing a license. Do anything YOU want with the source code I guess.
+
+## Contact
+
+If you have any questions or need help, feel free to open an issue on this repository.
