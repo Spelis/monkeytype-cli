@@ -1,3 +1,15 @@
+Source Code and Binaries will be up soon! I'm working as hard as i can and adding cool features and bugfixing before first release!
+
+### AUR
+![AUR votes](https://img.shields.io/aur/votes/monkeytype-cli?style=flat)
+![AUR last modified](https://img.shields.io/aur/last-modified/monkeytype-cli)
+
+### GitHub
+![GitHub Repo stars](https://img.shields.io/github/stars/Spelis/monkeytype-cli)
+![GitHub watchers](https://img.shields.io/github/watchers/Spelis/monkeytype-cli)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Spelis/monkeytype-cli/main)
+
+
 # MonkeyType-cli
 MonkeyType CLI is a minimalistic typing test designed specifically for the command-line interface. It offers an immersive and interactive way to improve your typing speed and accuracy right from your terminal.
 
