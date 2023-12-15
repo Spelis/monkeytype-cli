@@ -11,7 +11,7 @@ MonkeyType CLI is a minimalistic typing test designed specifically for the comma
 
 ## Installation
 
-### To install MonkeyType CLI, you need Python 3.7+ (only tested on 3.11 so please use that) and the blessed library. You can build MonkeyType CLI into an executable. If you want to do so please install PyInstaller or other python packager.
+To install MonkeyType CLI, you need Python 3.7+ (only tested on 3.11 so please use that) and the blessed library. You can build MonkeyType CLI into an executable. If you want to do so please install PyInstaller or other python packager.
 
 ## Usage
 
