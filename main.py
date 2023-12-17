@@ -1,10 +1,8 @@
 from blessed import Terminal
 import random, threading, time
-from sys import argv
+from sys import argv,exit
 
-exit = quit
-
-if sys.argv[0] == 'uninstall':
+if argv[0] == 'uninstall':
     from os import system
     print('Are you sure you want to uninstall? (Y/n)',end='')
     u = input()
