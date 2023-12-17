@@ -1,5 +1,8 @@
 from blessed import Terminal
 import random, threading, time
+from sys import quit
+
+exit = quit
 
 def termtoosmall(width,height):
     print(term.clear,end='')
