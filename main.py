@@ -1,8 +1,16 @@
 from blessed import Terminal
 import random, threading, time
-from sys import quit
+from sys import argv
 
 exit = quit
+
+if sys.argv[0] == 'uninstall':
+    from os import system
+    print('Are you sure you want to uninstall? (Y/n)',end='')
+    u = input()
+    if u == 'Y' or u == '':
+        system('sudo rm -rf /etc/monkeytype-cli')
+        system('sudo rm /bin/monkeytype-cli')
 
 def termtoosmall(width,height):
     print(term.clear,end='')
