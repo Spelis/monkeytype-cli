@@ -1,6 +1,8 @@
 from blessed import Terminal
 import random, threading, time
-from sys import argv,exit
+from sys import argv,quit
+
+exit = quit
 
 if argv[0] == 'uninstall':
     from os import system
