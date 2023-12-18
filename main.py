@@ -20,7 +20,7 @@ def getwords(n):
     words = []
     g = 0
     nochars = ['[', ']', '{', '}', '(', ')', '*', '&', '^', '%', '$', '#', '@', '!', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', '~', '?', '>', '<', ':', ';', '\\', '|', '-', '_', '=', '+', '/']
-    with open('words.txt') as f:
+    with open('/etc/monkeytype-cli/words.txt') as f:
         f = f.read()
         for char in nochars:
             f = f.strip(char)
