@@ -1,4 +1,5 @@
-Source Code and Binaries will be up soon! I'm working as hard as i can and adding cool features and bugfixing before first release!
+# MonkeyType-cli
+MonkeyType CLI is a minimalistic typing test designed specifically for the command-line interface. It offers an immersive and interactive way to improve your typing speed and accuracy right from your terminal.
 
 ### AUR
 ![AUR votes](https://img.shields.io/aur/votes/monkeytype-cli?style=flat)
@@ -10,13 +11,10 @@ Source Code and Binaries will be up soon! I'm working as hard as i can and addin
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Spelis/monkeytype-cli/main)
 
 
-# MonkeyType-cli
-MonkeyType CLI is a minimalistic typing test designed specifically for the command-line interface. It offers an immersive and interactive way to improve your typing speed and accuracy right from your terminal.
-
 ## OS SUPPORT: 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)(<- not tested at all)
 ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 
 (basically anything running python3 and a tui)
@@ -28,6 +26,8 @@ Offline: MonkeyType CLI is used offline, which means you dont need an internet c
 Test Modes: MonkeyType CLI offers a couple of test modes to challenge your typing skills. You can choose from different test durations and word amounts.
 
 Stats: After completing a test, you can see your words per minute (WPM), raw WPM, accuracy, character stats, test length, and leaderboards info. You can also see a graph of your WPM and raw over the duration of the test.
+
+Note: most stats not implemented yet, only WPM and accuracy have been implemented.
 
 ## Installation
 
@@ -43,7 +43,7 @@ search your distro's packages for python-blessed or similar and install with you
 
 ### Installing monkeytype-cli:
 #### Windows:
-Official Windows Binaries will never be supported for monkeytype-cli. But you can build it with PyInstaller or similar.
+Official Windows Binaries will never be supported for monkeytype-cli. But you can build it with PyInstaller or similar. But beware issues! (Recommended to add to PATH!)
 
 #### Arch Linux:
 `yay -S monkeytype-cli`
@@ -65,3 +65,15 @@ MonkeyType CLI is open-source software but missing a license. Do anything YOU wa
 ## Contact
 
 If you have any questions or need help, feel free to open an issue on this repository.
+
+# Change Log
+
+## 1.0.0
+* Added Menu Loop Function
+  * Added Tabs
+  * Added Buttons
+  * Added Inputs
+  * Its Centered :O
+* Added Simple Test UI
+* Added Main Menu
+* Added Test Completed Menu
