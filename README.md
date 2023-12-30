@@ -46,7 +46,7 @@ search your distro's packages for python-blessed or similar and install with you
 Official Windows Binaries will never be supported for monkeytype-cli. But you can build it with PyInstaller or similar. But beware issues! (Recommended to add to PATH!)
 
 #### Arch Linux:
-`yay -S monkeytype-cli`
+`yay -S monkeytype-cli` < not available yet hehe
 
 ## Usage
 
